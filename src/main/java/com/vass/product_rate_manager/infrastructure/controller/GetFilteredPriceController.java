@@ -24,7 +24,6 @@ public class GetFilteredPriceController {
 
     private final GetFilteredPrice getFilteredPrice;
 
-    //products/{product-id}/prices
     @GetMapping("/products/{productId}/prices")
     public ResponseEntity<PriceResponseDTO> getPrice(
             @PathVariable("productId") @NotNull Integer productId,

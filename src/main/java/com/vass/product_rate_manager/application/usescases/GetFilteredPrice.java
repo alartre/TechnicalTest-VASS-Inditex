@@ -16,7 +16,6 @@ public class GetFilteredPrice {
     }
 
     public Price getPrice(Integer productId, Integer brandId, LocalDateTime applicationDate) {
-        System.out.println("Buscando precio para productId: " + productId + ", brandId: " + brandId + ", applicationDate: " + applicationDate);
 
         return priceRepository.searchHighestPriorityPrice(productId, brandId, applicationDate)
                 .orElseThrow(() -> new PriceNotFoundException("No se encontró precio para el producto con ID: " + productId));
