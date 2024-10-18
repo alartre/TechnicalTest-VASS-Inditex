@@ -1,0 +1,195 @@
+{
+	"info": {
+		"_postman_id": "635fabfe-4b66-4783-aafc-0fdda3757009",
+		"name": "PRODUCT RATE MANAGER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19965375"
+	},
+	"item": [
+		{
+			"name": "Test 1: petición a las 10:00 del día 14 del producto 35455   para la brand 1 (ZARA)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/products/35455/prices?brandId=1&applicationDate=2020-06-14%2010:00:00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"35455",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "1"
+						},
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14%2010:00:00"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl --location --request GET 'http://localhost:8080/products/35455/prices?brandId=1&applicationDate=2020-06-14%2010:00:00' \\\n--header 'Content-Type: application/json'"
+			},
+			"response": []
+		},
+		{
+			"name": "Test 2: petición a las 16:00 del día 14 del producto 35455   para la brand 1 (ZARA)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/products/35455/prices?brandId=1&applicationDate=2020-06-14%2016:00:00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"35455",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "1"
+						},
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14%2016:00:00"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl --location --request GET 'http://localhost:8080/products/35455/prices?brandId=1&applicationDate=2020-06-14%2016:00:00' \\\n--header 'Content-Type: application/json'"
+			},
+			"response": []
+		},
+		{
+			"name": "Test 3: petición a las 21:00 del día 14 del producto 35455   para la brand 1 (ZARA)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/products/35455/prices?brandId=1&applicationDate=2020-06-14%2021:00:00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"35455",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "1"
+						},
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14%2021:00:00"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl --location --request GET 'http://localhost:8080/products/35455/prices?brandId=1&applicationDate=2020-06-14%2021:00:00' \\\n--header 'Content-Type: application/json'"
+			},
+			"response": []
+		},
+		{
+			"name": "Test 4: petición a las 10:00 del día 15 del producto 35455   para la brand 1 (ZARA)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/products/35455/prices?brandId=1&applicationDate=2020-06-15%2010:00:00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"35455",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "1"
+						},
+						{
+							"key": "applicationDate",
+							"value": "2020-06-15%2010:00:00"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl --location --request GET 'http://localhost:8080/products/35455/prices?brandId=1&applicationDate=2020-06-15%2010:00:00' \\\n--header 'Content-Type: application/json'"
+			},
+			"response": []
+		},
+		{
+			"name": "Test 5: petición a las 21:00 del día 16 del producto 35455   para la brand 1 (ZARA)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/products/35455/prices?brandId=1&applicationDate=2020-06-16%2021:00:00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"35455",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "brandId",
+							"value": "1"
+						},
+						{
+							"key": "applicationDate",
+							"value": "2020-06-16%2021:00:00"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl --location --request GET 'http://localhost:8080/products/35455/prices?brandId=1&applicationDate=2020-06-16%2021:00:00' \\\n--header 'Content-Type: application/json'"
+			},
+			"response": []
+		}
+	]
+}
