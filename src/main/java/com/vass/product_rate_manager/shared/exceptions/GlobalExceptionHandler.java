@@ -16,7 +16,6 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(PriceNotFoundException.class)
     public ResponseEntity<Map<String, Object>> handlePriceNotFoundException(PriceNotFoundException ex) {
-        System.out.println("Capturando PriceNotFoundException");  // Log para verificar que se captura la excepción
         Map<String, Object> errorDetails = new HashMap<>();
         errorDetails.put("timestamp", LocalDateTime.now());
         errorDetails.put("message", ex.getMessage());
